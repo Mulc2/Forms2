@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    
+    function write_name() {
+  
+  //var welcome_parra = document.getElementById('Welcome');
+  var name = document.getElementById('name').value;
+  alert(name);
+  //welcome_parra.innerHTML = "Welcome " + name.value;
+}
+    
+  </head>
+  <body>
+    
+    <p id="Welcome"></p>
+    <form>
+      What is your name:<input type="text" id="name" value=""/><br/>
+      <input type="Button" value="done" onclick="write_name()"/>
+    </form>
+    
+    
+    
+    <script src="index.js"></script>
+  </body>
+</html>
